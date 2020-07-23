@@ -9,7 +9,6 @@ BRANDS = []
   if brand.include?
     else 
       BRANDS << brand
-    
   end
 
   def cobble
