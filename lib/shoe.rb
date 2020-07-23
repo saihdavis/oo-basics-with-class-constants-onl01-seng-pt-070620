@@ -6,7 +6,7 @@ BRANDS = []
 
   def initialize(brand)
     @brand = brand
-  if brand.include?(3)
+  if brand.include?(brand)
     else 
       BRANDS << brand
   end
